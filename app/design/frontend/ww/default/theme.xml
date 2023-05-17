@@ -1,0 +1,10 @@
+<!--
+/**
+ * @package     ww/default
+ * @author      Anderson Oliveira
+ */
+-->
+<theme xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Config/etc/theme.xsd">
+    <title>Deviget Default</title>
+    <parent>Magento/luma</parent>
+</theme>
