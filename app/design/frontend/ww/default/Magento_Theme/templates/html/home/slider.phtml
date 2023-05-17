@@ -1,0 +1,31 @@
+<?php
+/**
+ * @package  ww/default
+ * @author   Anderson Oliveira
+ */
+?>
+
+<div class="slider-collection">
+    <div>
+        <img src="<?= $block->getViewFileUrl("Magento_Theme::images/deviget1.png")?>"
+             alt="Develop, Iterate,Get it. software design & engineering services"/>
+    </div>
+    <div>
+        <img src="<?= $block->getViewFileUrl("Magento_Theme::images/deviget2.png")?>"
+             alt="Unique approaches to meet your goals."/>
+    </div>
+    <div>
+        <img src="<?= $block->getViewFileUrl("Magento_Theme::images/deviget3.png")?>"
+             alt="A Beach on Both Hemispheres."/>
+    </div>
+</div>
+
+<script type="text/x-magento-init">
+    {
+        "*": {
+            "Magento_Theme/js/slider-collection": {
+                "elSelector": ".slider-collection"
+            }
+        }
+    }
+</script>
