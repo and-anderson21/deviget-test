@@ -6,11 +6,10 @@
     <!-- Be sure to remove any appearances, elements, and template references you are not overriding. -->
     <type name="button-item">
         <appearances>
-            <appearance name="default"
-                        preview_template="Magento_PageBuilder/content-type/button-item/default/preview"
-                        master_template="Magento_PageBuilder/content-type/button-item/default/master">
+            <appearance name="default">
                 <elements>
-                    <element name="main">
+                    <element name="empty_link">
+                        <attribute name="aria_label" source="aria-label"/>
                     </element>
                 </elements>
             </appearance>
