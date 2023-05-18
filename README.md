@@ -7,3 +7,5 @@ In this repository there is a module to show my knowledge by extending PageBuild
 a simple aria-label attribute on button item when there is no URL.
 
 In order to show my knowledge on mixins,  you will find a mixin for swatch-renderer file, with a simples JS just replicating the attribute label on the bottom of the product options wrapper.
+
+The database dump is located in the root folder named _dump.sql.gz_.
