@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @package     ww/default
+ * @author      Anderson Oliveira
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_PageBuilder:etc/content_type.xsd">
+    <type name="button-item">
+        <appearances>
+            <appearance name="default">
+                <elements>
+                    <element name="empty_link">
+                        <attribute name="aria_label" source="aria-label"/>
+                    </element>
+                </elements>
+            </appearance>
+        </appearances>
+    </type>
+</config>
